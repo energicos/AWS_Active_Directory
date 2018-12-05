@@ -1,1 +1,3 @@
-# EBS_Design_Review
+# Active Directory
+
+Please read the [assignment](./assignment.md) description.
