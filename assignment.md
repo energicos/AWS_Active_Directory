@@ -5,6 +5,7 @@
 ### 1. Objective
 
 The goal is to setup an Active Directory for a Microsoft Server that will be deployed at AWS.
+We want to connect AWS to an existing On Premise Microsoft Active Directory, and it's mandatory to avoid using the fully managed AD solution. Please use the bootstraped version of the AD and Powershell to install the features and roles.
 
 ### 2. Technologies to be used
 
@@ -16,13 +17,8 @@ The deliveriables need to be written in Cloudformation yaml files.
 ### 3. Provided by us
 
 - YAML templates containing some resources needed for the Active Directory
-
-### 4. JS Part
-In order to test your skills on Javascript, we would like to implement one or two lambda functions that replicate the functionalities of an already existing application.
-
-Our intention is to change our architecture and move the APIS to AWS using API Gateway and AWS Lambda.
-
-We'll describe the tasks in a more detailed way during the next days.
+- Follow this guide from the AWS official documentation https://docs.aws.amazon.com/quickstart/latest/active-directory-ds/scenario-2.html
+- [Here](https://github.com/aws-quickstart/quickstart-microsoft-activedirectory) you can find the assets related to the previous scenario, using cloudformation.
 
 ## B. Details of the assignment
 
@@ -34,5 +30,6 @@ Nonetheless be careful, there are resources that are not covered by the basic pl
 You need to install the AWS CLI in your PC, so you can execute Cloudformation scripts.
 
 ### 3. Timeline
-- Project Start: 05.12.2018
-- The assignment must be ready ==23.12.18==
+- Project Start: 14.01.2019
+- the timeframe for the project is set to 15 days upon hiring the developer
+- meaning the assignment must be ready ==29.01.2019==
