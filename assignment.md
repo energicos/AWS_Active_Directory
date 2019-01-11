@@ -5,7 +5,7 @@
 ### 1. Objective
 
 The goal is to setup an Active Directory for a Microsoft Server that will be deployed at AWS.
-We want to connect AWS to an existing On Premise Microsoft Active Directory, and it's mandatory to avoid using the fully managed AD solution. Please use the bootstraped version of the AD and Powershell to install the features and roles.
+We want to connect AWS to an existing On Premise Microsoft Active Directory, and it's mandatory to avoid using the fully managed AD solution. Please use the bootstrapped version of the AD and Powershell to install the features and roles.
 
 ### 2. Technologies to be used
 
