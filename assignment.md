@@ -26,7 +26,7 @@
 
 | __Results__              | __Description__                                              |
 | ------------------------ | ------------------------------------------------------------ |
-| Documentation            | A documentation describing the resources and the approach as well as the elaborations on the deployed  AWS extensions |
+| Documentation            | A documentation describing the resources and the approach as well as the elaborations on the deployed  AWS extensions. You should follow the [documentation template](./documentation_template.md). |
 | Cloudformation templates | Cloudformation templates with the resources working as expected in an automated way (vpc, ad, parameter, rdgw) |
 
 
@@ -96,7 +96,7 @@
 The following technologies are mandatory and cannot be replaced by any other technology similar or not without our explicit approval:
 - AWS Cloudformation
 
-  
+
 
 
 
@@ -116,8 +116,8 @@ The following technologies are mandatory and cannot be replaced by any other tec
   |_ parameters
 ```
 
+- Make sure that the ad_master.yaml master template has only the necessary information. Don't pollute it with unnecessary parameters and only drill down to the nested stack the mandatory parameters.
 - Create a Pull Request and we will review the code
-
 
 
 ## 6. Provided by us
